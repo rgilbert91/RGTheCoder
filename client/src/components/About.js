@@ -1,10 +1,10 @@
 import React from 'react';
-import "./about.css";
+
 
 
 export default function About() {
     return (
-    <div> 
+    <div className="about"> 
         <div className="container">
     	<div className="row">
     	    <div className=" about-content animated fadeIn scrollable" >

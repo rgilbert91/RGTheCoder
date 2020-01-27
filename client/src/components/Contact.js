@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default function Contact() {
+
+
+export default function Contact() { 
+
     return (
+      <div className="contact">
          <div className="container" id="contain">
          <div className="container">
   <div className="row header">
@@ -9,36 +13,57 @@ export default function Contact() {
     <h3>Contact Rasheem here for any questions you may have!!</h3>
   </div>
   <div className="row body">
-    <form action="#">
+    <form id="contactForm" action="#">
       <ul>
         <li> 
           <p className="left">
             <label for="first_name">First Name</label>
-            <input type="text" name="first_name" placeholder="First Name Here..." />
+            <input 
+            id="inputFirstName" 
+            type="text" 
+            name="first_name" 
+            placeholder="First Name Here..." />
+            onChange={this.handleChange}
           </p>
           <p className="pull-right">
             <label for="last_name">Last Name</label>
-            <input type="text" name="last_name" placeholder="Last Name Here..." />      
+            <input 
+            id="inputLastName" 
+            type="text" name="last_name" 
+            placeholder="Last Name Here..."
+            onChange={this.handleChange} />      
           </p>
         </li>
         <li>
           <p>
             <label for="email">Email <span className="req">*</span></label>
-            <input type="email" name="email" placeholder="example@email.com" />
+            <input 
+            id="inputEmail" 
+            type="email" 
+            name="email" 
+            placeholder="example@email.com" 
+            onChange={this.handleChange} />
           </p>
         </li>        
         <li><div className="divider"></div></li>
         <li>
           <label for="comments">comments</label>
-          <textarea cols="50" rows="5" name="comments"></textarea>
+          <textarea 
+          id="inputMessage" 
+          cols="50" 
+          rows="5" 
+          name="comments"
+          onChange={this.handleChange}>  
+          </textarea>
         </li>
         <li>
-          <a className="btn btn-submit" type="submit" value="Submit" href="./thanks" > Submit
+          <a className="btn btn-submit" type="submit" value="Submit" href="./thanks " > Submit
           </a>
         </li>
       </ul>
     </form>  
   </div>
+</div>
 </div>
 </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button } from "reactstrap";
+import { Link } from "react-router-dom"; 
+
 export default function Thankyou() {
   return (
     <div className="thanksB">
@@ -11,9 +11,9 @@ export default function Thankyou() {
         </span>
       </div>
       <div id='center-btn'>
-        <Button className="btn btn-sumbit btn-outline-dark home-font" to="/">
+        <Link className="btn btn-sumbit btn-outline-dark home-font" to="/">
           Home
-        </Button>
+        </Link>
       </div>
     </div>
   );

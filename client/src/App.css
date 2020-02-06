@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
+/* NAVBAR */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding-bottom: 0;
   margin: 0;
-  font-family: "Zhi Mang Xing", cursive;
+  font-family: 'Playfair Display', serif; ;
   font-size: x-large;
 }
 .navbar a {
@@ -21,13 +24,14 @@
     justify-content: space-between;
   }
 }
-.navbar-list-items ul {
+.navbar-list-items {
   margin: 0;
+  padding-top: 18px;
 }
 
 /* Footer */
 footer {
-  background-color: rgb(56, 56, 56);
+  background-color: #343a40;
   background: flex;
 }
 .socialMedia i {
@@ -59,7 +63,7 @@ footer {
 }
 .welcome-text {
   width: 100%;
-  color: rgb(134, 134, 134);
+  color: rgb(180, 180, 180);
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.8);
   padding-right: 0;
@@ -79,6 +83,7 @@ footer {
   display: inline-block;
   font-weight: 500;
   background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Playfair Display', serif;
 }
 .learn:hover {
   text-decoration: none;
@@ -89,7 +94,97 @@ footer {
 .welcome-text h4 {
   padding-left: 100px;
   font-size: 45px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
+.welcome-text h1{
+  font-family: 'Playfair Display', serif;
+}
+
+/*  About Page animation for content  */
+.about {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.about-info h1 {
+  z-index: -1;
+  color: #632c65;
+  text-align: center;
+  line-height: 90px;
+  font-size: 90px;
+  font-weight: 200;
+  letter-spacing: -0.1em;
+  width: 95%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.about section {
+  width: 48%;
+}
+.Synopsis-highlight {
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  line-height: 25px !important;
+  width: 100%;
+  color: #632c65;
+}
+.about .Synopsis-highlightLine {
+  width: 52px;
+  height: 4px;
+  background: #632c65;
+  margin: 30px 0;
+}
+
+.about .about-info {
+  margin-left: 30px;
+}
+
+.about .about-with-bg {
+  background-image: url("./pix/thanksBoston2.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  text-align: center;
+}
+
+/* Portfolio cards */
+
+.inner {
+  overflow: hidden;
+}
+.inner img {
+  transition: all 1.5s ease;
+}
+.inner:hover img {
+  transform: scale(1.5);
+}
+.col-md-m4 {
+  padding-top: 100px;
+  padding-right: 50px;
+}
+.card-img-top {
+  width: 320px;
+  height: 280px;
+}
+.card-body {
+  margin: 0;
+  width: 20rem;
+  color: rgb(158, 158, 158);
+  background-color: #343a40;
+}
+#card {
+  padding-bottom: 50px;
+}
+.portfolio {
+  background-image: url(./pix/projects.jpg);
+  background-size: 100vw;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 
 /* For CONTACT FORM */
 
@@ -247,91 +342,6 @@ footer {
   .contact h3 {
     font-size: 1.125em;
   }
-}
-
-/*  About Page animation for content  */
-.about {
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-}
-
-.about-info h1 {
-  z-index: -1;
-  color: #632c65;
-  text-align: center;
-  line-height: 90px;
-  font-size: 90px;
-  font-weight: 200;
-  letter-spacing: -0.1em;
-  width: 95%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.about section {
-  width: 48%;
-}
-.Synopsis-highlight {
-  font-weight: 700 !important;
-  font-size: 15px !important;
-  line-height: 25px !important;
-  width: 100%;
-  color: #632c65;
-}
-.about .Synopsis-highlightLine {
-  width: 52px;
-  height: 4px;
-  background: #632c65;
-  margin: 30px 0;
-}
-
-.about .about-info {
-  margin-left: 30px;
-}
-
-.about .about-with-bg {
-  background-image: url("./pix/thanksBoston2.jpg");
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: white;
-  text-align: center;
-}
-
-/* Portfolio cards */
-
-.inner {
-  overflow: hidden;
-}
-.inner img {
-  transition: all 1.5s ease;
-}
-.inner:hover img {
-  transform: scale(1.5);
-}
-.col-md-m4 {
-  padding-top: 100px;
-  padding-right: 50px;
-}
-.card-img-top {
-  width: 320px;
-  height: 280px;
-}
-.card-body {
-  margin: 0;
-  width: 20rem;
-  color: rgb(158, 158, 158);
-  background-color: #383838;
-}
-#card {
-  padding-bottom: 50px;
-}
-.portfolio {
-  background-image: url(./pix/projects.jpg);
-  background-size: 100vw;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 /* Thank You page (after email submission) */

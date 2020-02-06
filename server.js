@@ -3,7 +3,7 @@ const path = require ("path");
 const bodyParser = require ('body-parser')
 const nodemailer = require ('nodemailer')
 const app = express();
-const connectDB= require("./config/db");
+// const connectDB= require("./config/db");
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended:false }))
@@ -12,7 +12,7 @@ app.post('app/Form', (req, res) => {
     console.log(req.body)
 })
 
-connectDB();
+// connectDB();
 
 app.use(express.json({ extended: false}));
 

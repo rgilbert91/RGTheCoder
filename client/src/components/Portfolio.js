@@ -18,7 +18,7 @@ export default function Portfolio() {
                   Project composing of both front end and back end work also
                   added Bcrypt
                 </p>
-                <a href="#" className=" btn btn-dark">
+                <a href="#!" className=" btn btn-dark">
                   See This Code
                 </a>
               </div>
@@ -35,7 +35,7 @@ export default function Portfolio() {
                   Simple project where you can add cross out and/or delete goals
                   off of your list.
                 </p>
-                <a href="#" className=" btn btn-dark">
+                <a href="#!" className=" btn btn-dark">
                   See This Code
                 </a>
               </div>
@@ -52,7 +52,7 @@ export default function Portfolio() {
                   Simple project where you can add cross out and/or delete goals
                   off of your list.
                 </p>
-                <a href="#" className=" btn btn-dark">
+                <a href="#!" className=" btn btn-dark">
                   See This Code
                 </a>
               </div>
@@ -69,7 +69,7 @@ export default function Portfolio() {
                   Simple project where you can add cross out and/or delete goals
                   off of your list.
                 </p>
-                <a href="#" className=" btn btn-dark">
+                <a href="#!" className=" btn btn-dark">
                   See This Code
                 </a>
               </div>
@@ -86,7 +86,7 @@ export default function Portfolio() {
                   Simple project where you can add cross out and/or delete goals
                   off of your list.
                 </p>
-                <a href="#" className=" btn btn-dark">
+                <a href="#!" className=" btn btn-dark">
                   See This Code
                 </a>
               </div>
@@ -103,7 +103,7 @@ export default function Portfolio() {
                   Simple project where you can add cross out and/or delete goals
                   off of your list.
                 </p>
-                <a href="#" className=" btn btn-dark">
+                <a href="#!" className=" btn btn-dark">
                   See This Code
                 </a>
               </div>

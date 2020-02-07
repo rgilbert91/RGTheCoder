@@ -33,6 +33,7 @@
 footer {
   background-color: #343a40;
   background: flex;
+  padding-bottom: 0;
 }
 .socialMedia i {
   padding-right: 15px;
@@ -356,6 +357,13 @@ footer {
 .thanks {
   background: rgba(5, 5, 5, 0.438);
 }
+.thanks h1{
+ 
+  font-family: "Playfair Display", serif;
+}
+.thanks h2{
+  font-family: "Open Sans Condensed", sans-serif;
+}
 .home-font {
   font-size: 30px;
   text-transform: uppercase;
@@ -366,4 +374,8 @@ footer {
   justify-content: center;
   align-items: center;
   padding-bottom: 30px;
+}
+.btn-outline-dark{
+ color: rgb(200, 199, 199); 
+ border-color:rgb(200, 199, 199) ;
 }
